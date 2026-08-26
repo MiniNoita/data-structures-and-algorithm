@@ -45,3 +45,5 @@ describe('Testing dst1 -functions', () => {
     expect(funcs.getScores(scores2)).deep.equal([14, 45, 23, 8, 5]);
   });
 });
+
+//npx mocha test/dst1test.js to run this file
