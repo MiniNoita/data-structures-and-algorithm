@@ -1,5 +1,5 @@
-const funcs = require('../dst1.js');
-const expect = require('chai').expect;
+import * as funcs from '../dst1.js';
+import { expect } from 'chai';
 
 describe('Testing dst1 -functions', () => {
   it('Should export functions', () => {
